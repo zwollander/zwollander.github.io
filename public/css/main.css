@@ -1,0 +1,25 @@
+header.masthead {
+	text-align: center;
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav a{
+  margin: 0.3em;	
+  padding-bottom: 0.2em;
+  text-decoration: none !important;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+nav a:hover,  
+nav a:focus{  
+  text-decoration: none !important;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+}
+s

@@ -10,13 +10,13 @@
         <h3 class="masthead-title">
           <img src="/assets/zwollander_prof_im.png" width="128px">
           <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
+          </br>
           <small>{{ site.tagline }}</small>
-          
-          <ul id="nav">
-          {% for page in site.pages_list %}
-              <li><small><a href="{{ page[1]  }}">{{ page[0] }}</a></small></li>
-          {% endfor %}
-          </ul>
+          <nav>
+            {% for page in site.pages_list %}
+              <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+            {% endfor %}
+        </nav>
         </h3>
       </header>
 
