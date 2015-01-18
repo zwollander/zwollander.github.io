@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Zwollander
-tagline:          Excursions into Yii, bodybuilding and life in Zwolle
+tagline:          Excursions into Yii, bodybuilding, and Zwolle
 url:              http://zwollander.github.io
 paginate:         1
 baseurl:          /
