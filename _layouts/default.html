@@ -13,10 +13,18 @@
           </br>
           <small>{{ site.tagline }}</small>
           <nav>
-            {% for page in site.pages_list %}
-              <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
-            {% endfor %}
-        </nav>
+            <ul>
+              {% for link in site.pages_list %}
+              <li>
+                {% assign current = nil %}
+                {% if page.url contains link[1] %}
+                    {% assign current = 'active' %}
+                {% endif %}
+                <small><a class="{{ current }}" href="{{ link[1]  }}">{{ link[0] }}</a></small>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
         </h3>
       </header>
 

@@ -8,18 +8,42 @@ header img {
 	margin-right: auto;
 }
 
+nav {
+  margin: 0.5em 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
 nav a{
-  margin: 0.3em;	
-  padding-bottom: 0.2em;
+  display: inline-block;
+  padding: 0.5em;
+  padding-bottom: 1em;
+  margin: 0.3em;
   text-decoration: none !important;
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
 
+nav a.active {
+  border-bottom-width: 4px;
+}
+
 nav a:hover,  
 nav a:focus{  
   text-decoration: none !important;
-  border-bottom-width: 4px;
   border-bottom-style: solid;
+  background-color: #efefef;
+  border-radius: 5px 5px 0px 0px;
 }
 
