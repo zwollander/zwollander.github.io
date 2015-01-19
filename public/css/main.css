@@ -37,6 +37,7 @@ nav a{
 
 nav a.active {
   border-bottom-width: 4px;
+  font-weight: bold;
 }
 
 nav a:hover,  
